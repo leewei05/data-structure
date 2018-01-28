@@ -1,7 +1,6 @@
 # Data Structure in Python
 
 ## Arrays 
---------
 
 A collection of values each identified by an index.
 
