@@ -7,17 +7,16 @@ A collection of values each identified by an index.
 * index starts at zero
 * random access is possible if you know the index of the item
 
-### Advantages
+     ### Advantages
 
 * random access // O(1) order time complexity 
 * fast and easy to implement
 
-### Disadvantages
+     ### Disadvantages
 
 * it is not so dynamic data structure
 * it is not able to store items with different types (C++, JAVA)
 
--------------
 
 ## Linked lists
 
@@ -26,14 +25,14 @@ nodes and references / pointers pointing from one node to the other.
 * The last references is pointing to a Null
 * each node contains a data and a reference / link
 
-### Advantages
+     ### Advantages
 
 * dynamic data structures
 * allocate the needed memory in run-time
 * store item in different sizes
 * it's easy to grow sizes of the linked lists
 
-### Disadvantages
+     ### Disadvantages
 
 * waste memory because of the references
 * sequential access: nodes must be read from the beginning 
@@ -64,3 +63,9 @@ nodes and references / pointers pointing from one node to the other.
 | Insert at the start | O(1)       | O(N)   |
 | Insert at the end   | O(N)       | O(1)   |
 | Waste space         | O(N)       | 0      |
+
+### Doubly linked lists
+
+* The last and first references are pointing to NULL
+* can be traverse both directions: forward and backward
+
