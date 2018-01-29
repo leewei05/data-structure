@@ -56,7 +56,7 @@ nodes and references / pointers pointing from one node to the other.
     * **Solution** Array list is better for memory management
     * **Why?** Arrays do not need extra memory, linked lists on the other hand do need extra memory to store the references / pointers 
 
-1. Comparison table
+1. Time Complexity comparison
 
 |                     | Linkedlist | Arrays |
 |---------------------|------------|--------|
