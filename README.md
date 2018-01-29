@@ -57,6 +57,7 @@ nodes and references / pointers pointing from one node to the other.
     * **Why?** Arrays do not need extra memory, linked lists on the other hand do need extra memory to store the references / pointers 
 
 1. Comparison table
+
 |                     | Linkedlist | Arrays |
 |---------------------|------------|--------|
 | Search              | O(N)       | O(1)   |
