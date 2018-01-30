@@ -69,3 +69,16 @@ nodes and references / pointers pointing from one node to the other.
 * The last and first references are pointing to NULL
 * can be traverse both directions: forward and backward
 
+## Stack
+
+* abstract data type 
+* operations: pop(), push(), peek()
+* LIFO structure: last in first out
+
+### Stack memory
+
+
+
+
+
+
