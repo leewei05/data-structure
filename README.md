@@ -100,5 +100,9 @@ nodes and references / pointers pointing from one node to the other.
 
 ### Stack and recursion(遞迴)
 
+* The recursive function calls are pushed onto the stack until we bump into the base case, if too many function calls: the stack may cause a stack overflow error
+
+
+
 
 
