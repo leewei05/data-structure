@@ -88,6 +88,8 @@ nodes and references / pointers pointing from one node to the other.
 * This is a large region of memory
 * We have to deallocate these memory chunks, if not: memory leak
 
+### Stack vs Heap
+
 |             Stack memory            |        Heap memory       |
 |:-----------------------------------:|:------------------------:|
 |           limited in sizes          |      no size limits      |
@@ -96,7 +98,7 @@ nodes and references / pointers pointing from one node to the other.
 | space is managed efficiently by CPU | memory may be fragmented |
 |     variables cannot be resized     | variables can be resized |
 
-
+### Stack and recursion(遞迴)
 
 
 
