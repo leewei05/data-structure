@@ -102,6 +102,14 @@ nodes and references / pointers pointing from one node to the other.
 
 * The recursive function calls are pushed onto the stack until we bump into the base case, if too many function calls: the stack may cause a stack overflow error
 
+## Queues
+
+* abstract data type (interface)
+* operations: enqueue(), dequeue(), peek()
+* FIFO structure: first in first out
+* application: CPU scheduling, IO Buffer
+
+
 
 
 
