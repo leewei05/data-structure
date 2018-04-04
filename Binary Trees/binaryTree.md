@@ -20,4 +20,16 @@
 **Why is it good?**
 
 * Because we get rid of half of the data in which we are searching
-* O(logN) time complexity
+* O(logN) on average on operation
+
+* Delete a node
+    1. a leaf node -> set it to null
+    2. a node with one child -> set the parent node to the child node
+    3. a node with two children -> 
+         1. find the largest number(predecessor) at the left subtree, and swap the predecessor with the node 
+         2. find the smallest number(successor) at the right subtree, and swap the successor with the node
+
+* Traversal: visit every node in the tree
+     1. In-order traversal -> left + root node + right
+     2. Pre-order traversal -> root node + left + right
+     3. Post-order traversal -> left + right + root node
