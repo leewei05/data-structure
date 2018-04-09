@@ -15,6 +15,7 @@ class BinarySearchTree(object):
             self.root = Node(data)
         else: 
             self.insertNode(data, self.root)
+            
 
     def insertNode(self, data, node):
         if data < node.data: 

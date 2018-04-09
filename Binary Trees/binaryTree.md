@@ -20,7 +20,7 @@
 **Why is it good?**
 
 * Because we get rid of half of the data in which we are searching
-* O(logN) on average on operation
+* O(logN) on average on operation but it is O(N) if the tree is not balanced
 
 * Delete a node
     1. a leaf node -> set it to null
@@ -33,3 +33,16 @@
      1. In-order traversal -> left + root node + right
      2. Pre-order traversal -> root node + left + right
      3. Post-order traversal -> left + right + root node
+
+### AVL Trees
+
+AVL Trees guaranteed the tree is balanced (**O(logN)**)
+
+* The insertion operation is the same but we need to check whether the tree is unbalanced or not
+* Height of a node: length of the longest path from it to a leaf
+* AVL Trees requires the height of left and right child of every node to differ at most +1 or -1 
+
+` |height(leftSubtree) - height(rightSubtree) | <= 1`
+
+* rotations: to the left or the right, the in-order traversal is the same 
+
